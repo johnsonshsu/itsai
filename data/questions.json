@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "以下哪個是用於網頁的樣式表語言？",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python"
+    ],
+    "answer": [2],
+    "weight": 2,
+    "image": null,
+    "explanation": "HTML（HyperText Markup Language）是用來建立網頁的結構。\nCSS（Cascading Style Sheets）是用來設計和設定網頁的樣式，例如顏色、字型、佈局等。\nJavaScript 是一種用於為網頁添加互動功能的程式語言。\nPython 是一種通用程式語言，通常不直接用於前端網頁樣式設計。\n因此，用於網頁樣式的是 CSS。"
+  },
+  {
+    "id": 2,
+    "type": "multi",
+    "question": "下列哪些屬於 HTML5 新增的語意標籤？",
+    "options": [
+      "<section>",
+      "<article>",
+      "<div>",
+      "<footer>"
+    ],
+    "answer": [1,2,4],
+    "weight": 1,
+    "image": null,
+    "explanation": "HTML5 新增了許多語意標籤，如 <section>、<article>、<footer> 等，<div> 則是舊有的區塊標籤，無語意。"
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "下列哪一個 CSS 屬性可用來設定區塊的最大寬度？",
+    "options": [
+      "width",
+      "max-width",
+      "min-width",
+      "height"
+    ],
+    "answer": [2],
+    "weight": 3,
+    "image": null,
+    "explanation": "max-width 屬性可限制元素的最大寬度，常用於 RWD 設計。width 設定固定寬度，min-width 設定最小寬度，height 設定高度。"
+  },
+  {
+    "id": 4,
+    "type": "multi",
+    "question": "關於 JavaScript 語法，下列哪些敘述正確？",
+    "options": [
+      "變數可用 let 宣告",
+      "函式可用 function 宣告",
+      "每行結尾必須加分號",
+      "可用 const 宣告常數"
+    ],
+    "answer": [1,2,4],
+    "weight": 1,
+    "image": null,
+    "explanation": "let 可宣告變數，const 宣告常數，function 宣告函式。分號可省略，但建議加上。"
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "下列哪一張圖是 HTML5 標誌？",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": [3],
+    "weight": 2,
+    "image": "img/html5_logo.png",
+    "explanation": "HTML5 標誌如圖所示，常見為橘色盾牌形狀。"
+  }
+]
